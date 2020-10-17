@@ -11,5 +11,5 @@ export class AppComponent {
   constructor(private backendService: BackendService) {}
 
   title = this.backendService.hello();
-  text = "This is a very small app"
+  text = "This is a very small"
 }
